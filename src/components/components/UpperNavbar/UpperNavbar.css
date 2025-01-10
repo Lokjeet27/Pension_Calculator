@@ -44,9 +44,13 @@
 
 .lang-select label {
     margin-right: 1rem;
+    color: #fff;
 }
 
 .lang-select select {
     background-color: #fff;
     color: #000;
+}
+.contact {
+    color: #fff;
 }
