@@ -2,6 +2,7 @@ import React from "react";
 import UpperNavbar from "../components/UpperNavbar/UpperNavbar";
 import MainComp from "../components/MainComp/MainComp";
 import LowerNavbar from "../components/LowerNavbar/LowerNavbar";
+import Footer from "../Footer/footer";
 
 
 const HomePage: React.FC = () => {
@@ -10,6 +11,7 @@ const HomePage: React.FC = () => {
             <UpperNavbar />
             <MainComp />
             <LowerNavbar />
+            <Footer/>
         </header>
     )
 }
